@@ -139,6 +139,20 @@
           transaction: 500,
           interval: 6000,
         });
+
+        //Autocomplete
+      const ac = document.querySelector(".autocomplete");
+      M.Autocomplete.init(ac, {
+        data: {
+          Dominica: null,
+          "Cancun Mexico": null,
+          Hawaii: null,
+          Florida: null,
+          California: null,
+          Jamaica: null,
+          Europe: null,
+        },
+      });
       </script>
 </body>
 
